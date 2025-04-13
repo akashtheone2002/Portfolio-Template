@@ -3,32 +3,27 @@ import {
   backend,
   ux,
   prototyping,
-  javascript,
+  redis,
   typescript,
-  html,
   portfolio,
-  css,
   reactjs,
   pytorchse,
-  redux,
-  tailwind,
   nodejs,
   githubse,
+  csharp,
+  nextjs,
+  mongo,
   figma,
   docker,
   jquery,
   postgresql,
   mysqls,
-  rubyrails,
   cplusplus,
-  graphql,
   pythonse,
   komikult,
   leaderboard,
-  math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
@@ -52,11 +47,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Fullstack Web Developer',
+    title: 'FULLSTACK',
     icon: frontend,
   },
   {
-    title: 'AI / ML',
+    title: 'DEVOPS',
     icon: backend,
   },
   {
@@ -64,27 +59,47 @@ const services = [
     icon: ux,
   },
   {
-    title: 'Software Programming',
+    title: 'AI / ML',
     icon: prototyping,
   },
 ];
 
 const technologies = [
   {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'pytorchse',
-    icon: pytorchse,
+    name: 'Nextjs',
+    icon: nextjs,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Docker',
+    icon: docker,
+  },
+  {
+    name: 'C#',
+    icon: csharp,
+  },
+  {
+    name: 'Nodejs',
+    icon: nodejs,
+  },
+  {
+    name: 'Typescript',
+    icon: typescript,
+  },
+  {
+    name: 'Github',
+    icon: githubse,
+  },
+  {
+    name: 'Redis',
+    icon: redis,
+  },
+  {
+    name: 'pytorchse',
+    icon: pytorchse,
   },
   {
     name: 'c++',
@@ -95,43 +110,47 @@ const technologies = [
     icon: pythonse,
   },
   {
+    name: 'MongoDb',
+    icon: mongo,
+  },
+  {
     name: 'mysqls',
     icon: mysqls,
   },
   {
-    name: 'jquery',
-    icon: jquery,
+    name: 'Figma',
+    icon: figma,
   },
 ];
 
 const experiences = [
   {
-    title: ' Junior Programmer',
-    company_name: 'Introduced to programming languages and their concepts ',
+    title: 'Internship in Amla Commerce Pvt.Ltd',
+    company_name: 'Placed and Mastered DOTNET development specializing in MVC architecture and creating sophisticated Web APIs',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'jan 2021 - jan 2022',
+    date: 'dec 2023 - jan 2024',
   },
   {
-    title: 'Mini Project [Leader]',
-    company_name: 'Introduced to hosting Terminologies like DNS system and SSL certification',
+    title: 'Completed Engineering',
+    company_name: 'Earned an Engineering degree with specialized knowledge in ETC while acquiring practical expertise in web hosting terminologies deployment processes and essential internet infrastructure concepts including DNS systems and SSL certification',
     icon: microverse,
     iconBg: '#333333',
-    date: 'sept 2022 - dec 2022',
+    date: 'jun 2024 - july 2024',
   },
   {
-    title: 'Internship in codemate it-services',
-    company_name: 'Introduced to MACHINE LEARNING and their libraries like Regex and pytorch',
+    title: 'Trainee in Amla commerce',
+    company_name: 'Six months in DOTNET and NEXTJS framework as fullstack developer',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'july 2023 - aug 2023',
+    date: 'july 2024 - jan 2025',
   },
   {
-    title: 'Major Project [leader]',
-    company_name: 'making a social media website called camp community which contains full stack development',
+    title: 'Associate software engineer',
+    company_name: 'Now working in Reactjs',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Aug 2023 - Present',
+    date: 'jan 2025 - Present',
   },
 ];
 

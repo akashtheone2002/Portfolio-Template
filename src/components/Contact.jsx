@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { send, sendHover, link3, link4} from '../assets';
+import { send, sendHover, link3, link4 } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -23,6 +23,9 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!form.name && !form.email) {
+      return null;
+    }
     setLoading(true);
 
     // sign up on emailjs.com (select the gmail service and connect your account).
@@ -43,7 +46,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          // alert('Thank you. I will get back to you as soon as possible.');
 
           setForm({
             name: '',
@@ -54,7 +57,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.log(error);
-          alert('Something went wrong. Please try again.');
+          // alert('Something went wrong. Please try again.');
         }
       );
   };
@@ -135,7 +138,7 @@ const Contact = () => {
             onMouseOut={() => {
               document.querySelector('.contact-btn').setAttribute('src', send);
             }}>
-            {loading ? 'Sending' : 'Send'}
+            {loading ? 'Sent' : 'Send'}
             <img
               src={send}
               alt="send"
@@ -144,31 +147,31 @@ const Contact = () => {
             />
           </button>
           <a href='https://www.linkedin.com/in/akash-tiwari-697a5b215'>
-          <button
-            type="button"
-            className="connectlink flex justify-center sm:gap-4 
+            <button
+              type="button"
+              className="connectlink flex justify-center sm:gap-4 
             gap-3 sm:text-[20px] text-[16px] text-timberWolf 
             font-bold font-beckman items-center py-5
             whitespace-nowrap sm:w-[180px] sm:h-[50px] 
             w-[130px] h-[45px] rounded-[10px] bg-night 
             hover:bg-battleGray hover:text-eerieBlack 
             transition duration-[0.2s] ease-in-out"
-            onMouseOver={() => {
-              document
-                .querySelector('.contact-btn1')
-                .setAttribute('src', link4);
-            }}
-            onMouseOut={() => {
-              document.querySelector('.contact-btn1').setAttribute('src', link3);
-            }}>
-            CONNECT
-            <img
-              src={link3}
-              alt="img"
-              className="contact-btn1 sm:w-[26px] sm:h-[26px] 
+              onMouseOver={() => {
+                document
+                  .querySelector('.contact-btn1')
+                  .setAttribute('src', link4);
+              }}
+              onMouseOut={() => {
+                document.querySelector('.contact-btn1').setAttribute('src', link3);
+              }}>
+              CONNECT
+              <img
+                src={link3}
+                alt="img"
+                className="contact-btn1 sm:w-[26px] sm:h-[26px] 
               w-[30px] h-[23px] object-contain"
-            />
-          </button>
+              />
+            </button>
           </a>
         </form>
       </motion.div>

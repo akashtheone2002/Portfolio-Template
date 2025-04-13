@@ -24,12 +24,10 @@ import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 import link3 from './icons/link3.png';
 import link4 from './icons/link4.png';
-import css from './tech/css.png';
 import docker from './tech/docker.png';
 import jquery from './tech/jquery.png'
 import figma from './tech/figma.png';
 import githubse from './tech/githubse.png';
-import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
@@ -43,6 +41,10 @@ import pytorchse from './tech/pytorchse.png';
 
 
 import postgresql from './tech/postgresql.png';
+import redis from './tech/redis.png';
+import csharp from './tech/csharp.png';
+import mongo from './tech/mongo.png';
+import nextjs from './tech/nextjs.png';
 import rubyrails from './tech/rubyrails.png';
 import cplusplus from './tech/cplusplus.png';
 
@@ -85,7 +87,6 @@ export {
   send,
   sendHover,
   portfolio,
-  css,
   docker,
   jquery,
   pytorchse,
@@ -94,7 +95,6 @@ export {
   mysqls,
   graphql,
   pythonse,
-  html,
   javascript,
   nodejs,
   postgresql,
@@ -107,11 +107,15 @@ export {
   komikult,
   leaderboard,
   math,
+  nextjs,
   movie,
   nyeusi,
   space,
   coverhunt,
   dcc,
+  mongo,
+  redis,
   kelhel,
   microverse,
+  csharp
 };

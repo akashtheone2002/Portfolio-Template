@@ -36,11 +36,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-       CURRENTLY I'M IN 4TH YEAR, PURSUING MY B.TECH DEGREE IN ELECTRONICS AND TELECOMMUNICATION DEPARTMENT FROM  SB JAIN INSTITUTE OF TECHNOLOGY, MANAGEMENT AND RESEARCH.
-       THE DOMAINS IN WHICH I'M WORKING ...ARE <b> AI/ML, WEB DEVELOPMENT AND DESIGN, SOFTWARE PROGRAMMNG </b>
-       NOW, I'M TRYING TO GET AN IT JOB AS A 
-       SOFTWARE ENGINEER WHERE I CAN FREELY IMPROVE MY SKILLS AND KNOWLEDGE FOR BETTER EXPERIENCE
+        className="mt-4 text-taupe text-[18px] max-w-7xl leading-[30px]">
+        I've cultivated expertise in full-stack development using React/Next.js and .NET Core MVC frameworks.
+        <b> My work has involved developing Frontend Applications, RESTful APIs, implementing microservices architecture, and working with diverse database technologies including SQL Server, PostgreSQL, and MongoDB. I've strengthened my DevOps capabilities through Git/GitHub workflows, Docker containerization, and implementing authentication and caching strategies </b> . This experience has equipped me with a comprehensive understanding of building scalable, enterprise-level applications that adhere to industry standards for performance and security. I'm passionate about continuous learning and applying best practices to deliver robust software solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

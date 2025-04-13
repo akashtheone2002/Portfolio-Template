@@ -36,16 +36,16 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              {" HI, MY NAME IS AKASH TIWARI AND "}
+              {" HI, I'M AKASH TIWARI AND "}
               <span
                 className="sm:text-battleGray sm:text-[75px] 
                 text-eerieBlack text-[25px] font-mova
                 font-extrabold uppercase">
-                I'M A WEB Developer
+                I BEND THE DIGITAL REALM
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-             {/*Akash Tiwari dolor sit amet.*/} <br className="sm:block hidden" />
+              {/*Akash Tiwari dolor sit amet.*/} <br className="sm:block hidden" />
               {/* consectetur adipisicing elit deleniti, voluptas. */}
             </p>
           </div>
