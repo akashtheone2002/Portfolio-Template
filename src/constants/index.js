@@ -6,17 +6,23 @@ import {
   javascript,
   typescript,
   html,
+  portfolio,
   css,
   reactjs,
+  pytorchse,
   redux,
   tailwind,
   nodejs,
-  git,
+  githubse,
   figma,
   docker,
+  jquery,
   postgresql,
+  mysqls,
   rubyrails,
+  cplusplus,
   graphql,
+  pythonse,
   komikult,
   leaderboard,
   math,
@@ -46,11 +52,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Fullstack Web Developer',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'AI / ML',
     icon: backend,
   },
   {
@@ -58,106 +64,82 @@ const services = [
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Software Programming',
     icon: prototyping,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
     name: 'JavaScript',
     icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
   },
   {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'pytorchse',
+    icon: pytorchse,
   },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'c++',
+    icon: cplusplus,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'pythonse',
+    icon: pythonse,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'mysqls',
+    icon: mysqls,
   },
   {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
+    name: 'jquery',
+    icon: jquery,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: ' Junior Programmer',
+    company_name: 'Introduced to programming languages and their concepts ',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'jan 2021 - jan 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Mini Project [Leader]',
+    company_name: 'Introduced to hosting Terminologies like DNS system and SSL certification',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'sept 2022 - dec 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Internship in codemate it-services',
+    company_name: 'Introduced to MACHINE LEARNING and their libraries like Regex and pytorch',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'july 2023 - aug 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Major Project [leader]',
+    company_name: 'making a social media website called camp community which contains full stack development',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Aug 2023 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'CANTEEN SYSTEM',
+    description: 'A FOOD ORDERING SYSTEM IN C/C++',
     tags: [
       {
         name: 'react',
@@ -173,14 +155,14 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/Akash2002ison/akash2002ison.github.io/tree/main/C%2B%2B/projects/canteenproject',
+    demo: '#',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'DOCUMENT EDITOR',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A DOCUMENT EDITING WEBSITE RELATED TO PDF OPERATIONS LIKE MERGING , CONVERTIN IN WORD AND ETC. MADE WITH HTML,CSS,JS(ES6) AND WEB APIs',
     tags: [
       {
         name: 'react',
@@ -196,13 +178,13 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/Akash2002ison/akash2002ison.github.io/tree/main/Front_end_Projects/Website/document_editor_html_css_js',
+    demo: '#',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Portfolio APP',
+    description: 'A SINGLE-PAGE PORTFOLIO APP BUILT WITH REACT AND VITE',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +199,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: portfolio,
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'AI CHATBOT',
+    description: `IT IS AN AI BASED CHATBOT MADE WITH DL/NLP CONCEPTS, REGEX AND PYTORCH`,
     tags: [
       {
         name: 'nextjs',
@@ -240,14 +222,14 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/Akash2002ison/akash2002ison.github.io/tree/main/python3/chatbot',
+    demo: '#',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Camp Community',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'ITs A SOCIAL MEDIA WEB APPLICATION DEVELOPED IN REACT,VITE,NODE JS AND MONGO DB',
     tags: [
       {
         name: 'nextjs',
@@ -263,8 +245,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: '#',
+    demo: 'https://campcommunity.in',
   },
 ];
 

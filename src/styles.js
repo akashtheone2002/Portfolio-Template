@@ -12,7 +12,7 @@ const styles = {
   flexStart: 'flex justify-start items-start',
   flexEnd: 'flex justify-end',
   navPadding: 'pt-[98px]',
-
+  
   paddingX: 'sm:px-16 px-6',
   paddingY: 'sm:py-16 py-6',
   padding: 'sm:px-16 px-6 sm:py-16 py-10',
@@ -30,6 +30,7 @@ const styles = {
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
   sectionSubTextLight:
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
+
 };
 
 export { styles };

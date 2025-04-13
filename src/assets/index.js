@@ -22,11 +22,13 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
-
+import link3 from './icons/link3.png';
+import link4 from './icons/link4.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
+import jquery from './tech/jquery.png'
 import figma from './tech/figma.png';
-import git from './tech/git.png';
+import githubse from './tech/githubse.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
@@ -35,8 +37,14 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
+import pythonse from './tech/pythonse.png';
+import mysqls from './tech/mysqls.png';
+import pytorchse from './tech/pytorchse.png';
+
+
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import cplusplus from './tech/cplusplus.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -45,7 +53,9 @@ import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
+import portfolio from './projects/portfolio.png';
 import math from './projects/math-magicians.png';
+
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
@@ -60,6 +70,8 @@ export {
   shaq,
   backend,
   ux,
+  link3,
+  link4,
   frontend,
   prototyping,
   github,
@@ -72,16 +84,22 @@ export {
   resume,
   send,
   sendHover,
+  portfolio,
   css,
   docker,
+  jquery,
+  pytorchse,
   figma,
-  git,
+  githubse,
+  mysqls,
   graphql,
+  pythonse,
   html,
   javascript,
   nodejs,
   postgresql,
   rubyrails,
+  cplusplus,
   reactjs,
   redux,
   tailwind,

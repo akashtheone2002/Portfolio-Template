@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-2 fixed 
+      className={`${styles.paddingX} w-full items-center py-2 fixed 
       top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -26,8 +26,7 @@ const Navbar = () => {
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
 
-          {/* if you have text you want besides your logo it comes here.
-          Otherwise delete this if you don't need it. */}
+          {/*need text between logo name and logo here */}
           <img
             src={logotext}
             alt="logo"
@@ -52,8 +51,8 @@ const Navbar = () => {
         <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
           {toggle ? (
             <div
-              className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${
+              className={`p-7 bg-flashWhite opacity-[0.98] absolute 
+                top-0 left-0 w-screen h-[28vh] z-10 menu ${
                   toggle ? 'menu-open' : 'menu-close'
                 }`}>
               <div className="flex justify-end">
@@ -66,7 +65,7 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                items-start justify-end mt-[0rem] -ml-[2px] font-size: 12px;">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
@@ -83,7 +82,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+              </div>
           ) : (
             <img
               src={menu}

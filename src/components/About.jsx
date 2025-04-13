@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <div className="-mt-[6rem]">
+    <div className="-mt-[5rem]">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -37,12 +37,10 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+       CURRENTLY I'M IN 4TH YEAR, PURSUING MY B.TECH DEGREE IN ELECTRONICS AND TELECOMMUNICATION DEPARTMENT FROM  SB JAIN INSTITUTE OF TECHNOLOGY, MANAGEMENT AND RESEARCH.
+       THE DOMAINS IN WHICH I'M WORKING ...ARE <b> AI/ML, WEB DEVELOPMENT AND DESIGN, SOFTWARE PROGRAMMNG </b>
+       NOW, I'M TRYING TO GET AN IT JOB AS A 
+       SOFTWARE ENGINEER WHERE I CAN FREELY IMPROVE MY SKILLS AND KNOWLEDGE FOR BETTER EXPERIENCE
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

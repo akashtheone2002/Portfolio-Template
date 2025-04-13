@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { send, sendHover } from '../assets';
+import { send, sendHover, link3, link4} from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -29,16 +29,16 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_1qle8mo', // paste your ServiceID here (you'll get one when your service is created).
+        'template_60blmmw', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'YourName', // put your name here.
+          to_name: 'Akash Tiwari', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'akashain2002@gmail.com', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'HImezVF-hqW-4rD6M' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
@@ -143,6 +143,33 @@ const Contact = () => {
               w-[23px] h-[23px] object-contain"
             />
           </button>
+          <a href='https://www.linkedin.com/in/akash-tiwari-697a5b215'>
+          <button
+            type="button"
+            className="connectlink flex justify-center sm:gap-4 
+            gap-3 sm:text-[20px] text-[16px] text-timberWolf 
+            font-bold font-beckman items-center py-5
+            whitespace-nowrap sm:w-[180px] sm:h-[50px] 
+            w-[130px] h-[45px] rounded-[10px] bg-night 
+            hover:bg-battleGray hover:text-eerieBlack 
+            transition duration-[0.2s] ease-in-out"
+            onMouseOver={() => {
+              document
+                .querySelector('.contact-btn1')
+                .setAttribute('src', link4);
+            }}
+            onMouseOut={() => {
+              document.querySelector('.contact-btn1').setAttribute('src', link3);
+            }}>
+            CONNECT
+            <img
+              src={link3}
+              alt="img"
+              className="contact-btn1 sm:w-[26px] sm:h-[26px] 
+              w-[30px] h-[23px] object-contain"
+            />
+          </button>
+          </a>
         </form>
       </motion.div>
     </div>
