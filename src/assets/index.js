@@ -49,19 +49,12 @@ import rubyrails from './tech/rubyrails.png';
 import cplusplus from './tech/cplusplus.png';
 
 import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import portfolio from './projects/portfolio.png';
-import math from './projects/math-magicians.png';
-
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
-
+import quotex from './projects/quotex.png';
+import quizzy from './projects/quizzy.png'
+import shop from './projects/shop.png';
+import excelai from './projects/excelai.png';
+import community from './projects/community.png'
 export {
   bwmap,
   nairobi,
@@ -86,7 +79,6 @@ export {
   resume,
   send,
   sendHover,
-  portfolio,
   docker,
   jquery,
   pytorchse,
@@ -104,18 +96,14 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
   nextjs,
-  movie,
-  nyeusi,
-  space,
   coverhunt,
-  dcc,
   mongo,
   redis,
-  kelhel,
-  microverse,
-  csharp
+  csharp,
+  quotex,
+  quizzy,
+  shop,
+  excelai,
+  community,
 };

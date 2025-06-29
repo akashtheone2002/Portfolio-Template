@@ -5,7 +5,6 @@ import {
   prototyping,
   redis,
   typescript,
-  portfolio,
   reactjs,
   pytorchse,
   nodejs,
@@ -15,19 +14,15 @@ import {
   mongo,
   figma,
   docker,
-  jquery,
-  postgresql,
   mysqls,
   cplusplus,
   pythonse,
-  komikult,
-  leaderboard,
-  movie,
-  nyeusi,
   coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  quotex,
+  quizzy,
+  shop,
+  excelai,
+  community
 } from '../assets';
 
 export const navLinks = [
@@ -134,21 +129,21 @@ const experiences = [
   {
     title: 'Completed Engineering',
     company_name: 'Earned an Engineering degree with specialized knowledge in ETC while acquiring practical expertise in web hosting terminologies deployment processes and essential internet infrastructure concepts including DNS systems and SSL certification',
-    icon: microverse,
+    icon: coverhunt,
     iconBg: '#333333',
     date: 'jun 2024 - july 2024',
   },
   {
     title: 'Trainee in Amla commerce',
     company_name: 'Six months in DOTNET and NEXTJS framework as fullstack developer',
-    icon: kelhel,
+    icon: coverhunt,
     iconBg: '#333333',
     date: 'july 2024 - jan 2025',
   },
   {
     title: 'Associate software engineer',
     company_name: 'Now working in Reactjs',
-    icon: dcc,
+    icon: coverhunt,
     iconBg: '#333333',
     date: 'jan 2025 - Present',
   },
@@ -157,8 +152,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'CANTEEN SYSTEM',
-    description: 'A FOOD ORDERING SYSTEM IN C/C++',
+    name: 'QUIZZY',
+    description: 'A FULLSTACK APPLICATION WHERE YOU CAN CREATE QUIZ/TEST WITH THE HELP OF AI. USER HAS THE FULL CONTROL OVER THE TIME,QUESTION,REWARDS AND MUCH MORE. TECHNOLOGY USED : C#, SQL, FIREBASE, REACT AND etc.',
     tags: [
       {
         name: 'react',
@@ -173,15 +168,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: quizzy,
     repo: 'https://github.com/Akash2002ison/akash2002ison.github.io/tree/main/C%2B%2B/projects/canteenproject',
     demo: '#',
   },
   {
     id: 'project-2',
-    name: 'DOCUMENT EDITOR',
+    name: 'SHOP HERE',
     description:
-      'A DOCUMENT EDITING WEBSITE RELATED TO PDF OPERATIONS LIKE MERGING , CONVERTIN IN WORD AND ETC. MADE WITH HTML,CSS,JS(ES6) AND WEB APIs',
+      'A FULLSTACK SHOP-MANAGEMENT SYSTEM WHERE YOU CAN SETUP YOUR STORE, HAVING ALL THE OPERATIONS WITH SINGLE SCHEMA ARCHITECTURE AND AI RECOMMANDATION SYSTEM . TECHNOLOGY USED : NEXTJS , MONGO AND etc.',
     tags: [
       {
         name: 'react',
@@ -196,14 +191,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
+    image: shop,
     repo: 'https://github.com/Akash2002ison/akash2002ison.github.io/tree/main/Front_end_Projects/Website/document_editor_html_css_js',
     demo: '#',
   },
   {
     id: 'project-3',
-    name: 'Portfolio APP',
-    description: 'A SINGLE-PAGE PORTFOLIO APP BUILT WITH REACT AND VITE',
+    name: 'QUOTEX BOT',
+    description: 'AN (ADMIN + CLIENT) APPLICATION WHERE ADMIN CAN APPLY TRADE AND THE SAME TRADE GET APPLIED TO ALL THE LIVE CLIENTS AVAILABLE. TECHNOLOGY USED : PYTHON , SELENIUM , NODE JS, FASTAPI AND etc.',
     tags: [
       {
         name: 'nextjs',
@@ -218,14 +213,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: portfolio,
+    image: quotex,
     repo: '#',
     demo: '#',
   },
   {
     id: 'project-4',
-    name: 'AI CHATBOT',
-    description: `IT IS AN AI BASED CHATBOT MADE WITH DL/NLP CONCEPTS, REGEX AND PYTORCH`,
+    name: 'AI-LYSIS',
+    description: `AN APPLICATION WHERE YOU CAN UPLOAD YOUR EXCEL SHEET AND IT WILL GIVE YOU THE DETAILED ANALYSIS. USER CAN HAVE BETTER VISUALIZATION WITH CHART AND QNA ON THE UPLOADED DOCUMENT. TECHNOLOGY USED : AI/ML, STREAMLIT, GEMINI AND etc.`,
     tags: [
       {
         name: 'nextjs',
@@ -240,7 +235,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
+    image: excelai,
     repo: 'https://github.com/Akash2002ison/akash2002ison.github.io/tree/main/python3/chatbot',
     demo: '#',
   },
@@ -248,7 +243,7 @@ const projects = [
     id: 'project-5',
     name: 'Camp Community',
     description:
-      'ITs A SOCIAL MEDIA WEB APPLICATION DEVELOPED IN REACT,VITE,NODE JS AND MONGO DB',
+      'A SOCIAL MEDIA APPLICATION WHERE STUDENTS FROM DIFFERENT UNIVERSITIES CAN CONNECT AND SHARE CAMPUS/PLACEMENT INFO. TECHNOLOGY USED : REACTJS, WEBSOCKETS, NODE JS, MONGO DB AND etc.',
     tags: [
       {
         name: 'nextjs',
@@ -263,7 +258,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
+    image: community,
     repo: '#',
     demo: 'https://campcommunity.in',
   },
