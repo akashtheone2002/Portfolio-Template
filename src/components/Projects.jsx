@@ -82,7 +82,7 @@ const Projects = () => {
           These projects demonstrate my expertise with practical examples of
           some of my work, They showcase my ability to tackle
           intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          oversee projects. you can contact me for the resources.
         </motion.p>
       </div>
 
